@@ -1,10 +1,16 @@
+import Header from "./Components/Header"
+import Formulario from "./Components/Formulario"
+import ListadoPacientes from "./Components/ListadoPacientes"
+
 function App() {
 
   return (
-      <div>
-        <h1>{'Hola mundo'.toUpperCase()}</h1>
-      </div>
-    )
+    <> {/*fragment */}
+      <Header />
+      <Formulario/>
+      <ListadoPacientes />
+    </>
+  )
 }
 
 export default App
